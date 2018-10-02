@@ -15,7 +15,10 @@
 [Rr]eleases/
 x64/
 x86/
-build/*
+#build/*
+build/CMakeFiles
+build/CMakeCache.txt
+
 !build/CMakeLists.txt
 !build/build_script.sh
 !build/create_vs2013_project.bat
